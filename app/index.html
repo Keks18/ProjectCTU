@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kurs</title>
+	<meta charset="utf-8">
+	<style>
+      
+      body {
+        margin: 0;
+      }
+       /* Set the size of the div element that contains the map */
+      
+      #map {
+        height: 855px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+      #gist {
+        color: #FFAC40;
+        text-decoration: none;
+        font-size: 145%;
+        display: block;
+        text-align: center;
+        
+      }
+      .container {
+        display: block;
+        background-color: #29467F;
+        width: 100%;
+        height: 100px;
+
+      }
+      .text-container {
+        color: #FFD582;
+        width: 500px;
+        margin: 0;
+        margin-top: 15px;
+      }
+      #file-input {
+        color: #29467F;
+        margin-top: 10px;
+
+      }
+      .div-container {
+        color: #FFD582;
+        
+        text-align: center;
+        margin: 0;
+      }
+      .center-container {
+        display: block;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+      }
+      
+    </style>
+
+</head>
+<body>
+	<div class="container">
+    <div class="center-container">
+        <h1 class="div-container">Пример движения маршрута 9</h1>
+        <a id="gist" href="/Gistograma.html">Перейти к диаграммам</a>
+    </div>
+  </div>
+
+	<div id="map"></div>
+    
+	<script src="exmpl.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-hmyC67opq_dn-QVDkQkmtWt-YNuUygE&callback=initMap">
+    </script>
+</body>
+</html>
